@@ -1,3 +1,5 @@
+![Signal Rail banner](assets/signal-rail-banner.png)
+
 # Signal Rail
 
 > Think. Throw. Unearth.
