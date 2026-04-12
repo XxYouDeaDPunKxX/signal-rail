@@ -49,16 +49,6 @@ You did not remember it was there. Without the system, the chances are close to 
 **The kernel.**  
 `06_ai_to_ai.txt` is not written for the human operator. It is written for the agent. It governs activation, mode discipline, canonical authority, and the conditions under which the agent must stop and ask. Once loaded, the agent does not need to be micro-managed. It knows the structure and works inside it.
 
----
-
-## 🌍 What it works across
-
-Signal Rail does not care what you are building. The problem it solves is the same whether you are writing software, managing a renovation, designing a system, or running any long project where an AI is part of how you think and decisions accumulate over time.
-
-No database. No plugins. No proprietary format. Plain text that works in any chat interface with any AI.
-
----
-
 ## 🚀 Quick start
 
 1. Run `init_signal_rail.bat` on Windows to bootstrap a new instance in your target folder.
