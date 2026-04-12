@@ -71,6 +71,16 @@ For a non-English version, use **SR Localization Kit** to create a separate loca
 
 Signal Rail exists here as the clean baseline kit, not as a live host-project surface by default.
 
+## 🖥️ Offline workstation
+
+Signal Rail also includes an optional offline workstation: `signal_rail_workstation_final.html`.
+
+It gives the operator a direct local workstation for reading canonicals, checking runtime state, staging writes, previewing changes, and writing back to the matching `.txt` files when live folder access is available.
+
+It does not replace the canonicals or change their authority. It makes them easier to inspect and maintain without working blind.
+
+Open [signal_rail_workstation_final.html](signal_rail_workstation_final.html) when you want a clearer local way to maintain a live Signal Rail instance.
+
 ---
 
 <details>
