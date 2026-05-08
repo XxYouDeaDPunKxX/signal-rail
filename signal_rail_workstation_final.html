@@ -341,7 +341,7 @@
       font:10px/1.2 var(--mono);
       letter-spacing:.12em;
       text-transform:uppercase;
-      color:rgba(216,232,248,.92);
+      color:var(--text-soft);
       padding-left:2px;
       margin-bottom:4px;
       display:block;
@@ -743,7 +743,7 @@
       margin-bottom:14px;
     }
     .read-map-group{display:grid;gap:8px}
-    .system-nav-group{gap:10px}
+    .system-nav-group{display:grid;gap:10px}
     .system-nav-heading{
       margin:0;
       font-size:24px;
@@ -755,6 +755,7 @@
       margin-top:14px;
     }
     .read-map-grid{
+      display:grid;
       grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
       gap:10px;
       margin-bottom:2px;
@@ -766,6 +767,7 @@
     }
     .read-map-card .item-copy{
       display:-webkit-box;
+      line-clamp:3;
       -webkit-line-clamp:3;
       -webkit-box-orient:vertical;
       overflow:hidden;
@@ -793,7 +795,7 @@
     }
     #view-system .system-nav-card .item-title{
       font-size:16px;
-      font-weight:760;
+      font-weight:800;
     }
     #view-system .system-nav-card .item-file{
       margin-top:0;
@@ -801,6 +803,7 @@
     #view-system .system-nav-card .item-copy{
       margin-top:0;
       display:-webkit-box;
+      line-clamp:2;
       -webkit-line-clamp:2;
       -webkit-box-orient:vertical;
       overflow:hidden;
@@ -1302,6 +1305,7 @@
       letter-spacing:-.02em;
       min-height:36px;
       display:-webkit-box;
+      line-clamp:2;
       -webkit-line-clamp:2;
       -webkit-box-orient:vertical;
       overflow:hidden;
@@ -1331,6 +1335,7 @@
       color:#d8e8fb;
       font-weight:700;
       display:-webkit-box;
+      line-clamp:2;
       -webkit-line-clamp:2;
       -webkit-box-orient:vertical;
       overflow:hidden;
