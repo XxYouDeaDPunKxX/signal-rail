@@ -1,0 +1,68 @@
+{
+  "name": "Signal Rail",
+  "type": "Plain-text document governance system",
+  "description": "A text-first governance system for AI-assisted project work.",
+  "page_url": "https://xxyoudeadpunkxx.github.io/Signal-Rail/",
+  "repository": "https://github.com/XxYouDeaDPunKxX/Signal-Rail",
+  "runtime": "AI-assisted project work with plain-text files",
+  "purpose": "Keep personal and project material readable while work grows, branches, changes shape, and resumes after interruption.",
+  "operating_question": "What kind of material is this, and where should it live?",
+  "operating_model": [
+    "Signal Rail is mainly designed to be operated with an AI agent during real work.",
+    "The agent reads the entry layer, activates the lateral kernel, closes the working frame, and helps route material into the right document without mixing levels.",
+    "The human stays in charge of meaning, authority, and approval."
+  ],
+  "quick_start": [
+    "Create a Signal Rail instance in the target project area.",
+    "Use init_signal_rail.bat for Windows bootstrap, or manually copy the required files while preserving file names, marker structure, canonical roles, and entry flow.",
+    "Ask the AI agent to read 00_runtime_entry.txt, then 06_ai_to_ai.txt.",
+    "Close host project, working object, active mode, source scope, and authority before substantive work."
+  ],
+  "rails": [
+    {"file": "00_runtime_entry.txt", "role": "valid entry, minimum read, and reading boundaries"},
+    {"file": "01_orientation.txt", "role": "project identity, perimeter, and reading frame"},
+    {"file": "02_protocol_freeze.txt", "role": "identity constants that should be hard to reopen"},
+    {"file": "03_master_working.txt", "role": "current live state, blocker, active work, and next move"},
+    {"file": "04_decision_log.txt", "role": "choices already taken, already in effect, and already won against alternatives"},
+    {"file": "05_latent_ideas.txt", "role": "important unresolved material that still needs motion or placement"},
+    {"file": "06_ai_to_ai.txt", "role": "agent operating behavior inside a Signal Rail instance"},
+    {"file": "07_guided_prompts_test.txt", "role": "guided paths for safer starts, rebuilds, reviews, and routing passes"},
+    {"file": "08_surface_map.txt", "role": "real technical topology, entrypoints, sensitive surfaces, and minimal runbook"},
+    {"file": "09_handoff_reentry.txt", "role": "re-entry support and continuity, not canonical project truth"},
+    {"file": "97_field_findings.txt", "role": "lateral captures during an active pass before routing or discard"},
+    {"file": "98_parking.txt", "role": "useful material that is not active now"},
+    {"file": "99_archive.txt", "role": "closed, historical, duplicate, or no-longer-live material"}
+  ],
+  "boundary_model": [
+    {"surface": "Clean baseline kit", "meaning": "this repository, the reusable Signal Rail source"},
+    {"surface": "Deployed instance", "meaning": "a copy of Signal Rail used inside or beside a real project"},
+    {"surface": "Host project", "meaning": "the actual project being governed"},
+    {"surface": "Workstation", "meaning": "optional local interface for reading, staging, previewing, and writing a live instance"}
+  ],
+  "workstation": {
+    "file": "signal_rail_workstation_final.html",
+    "purpose": "Local workstation for reading canonicals, checking runtime state, staging writes, previewing output, and writing back to matching .txt files when live folder access is available.",
+    "authority": "Does not replace the canonicals and does not change authority."
+  },
+  "prevents": [
+    "live state mixed with decisions",
+    "unresolved material promoted too early",
+    "technical reality buried inside generic notes",
+    "continuity pretending to be project truth",
+    "a strong sentence becoming a decision",
+    "a live blocker becoming project identity",
+    "a temporary solution becoming freeze",
+    "a hypothesis entering current work too early",
+    "a handoff note becoming canonical truth",
+    "a deployed instance being mistaken for the host project"
+  ],
+  "keywords": [
+    "plain text governance",
+    "AI-assisted project work",
+    "document routing",
+    "project continuity",
+    "source authority",
+    "canonical files",
+    "Signal Rail"
+  ]
+}
