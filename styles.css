@@ -535,3 +535,74 @@ p, li { font-size: 1rem; line-height: 1.65; }
     grid-template-columns: minmax(260px, 0.62fr) minmax(0, 1.38fr);
   }
 }
+
+/* OP target: kernel section as a real top-title + lower 38/62 row. */
+.kernel-band {
+  grid-template-columns: 1fr !important;
+  gap: var(--s-3);
+  padding: var(--s-4) var(--s-3) var(--s-3);
+}
+
+.kernel-band > .section-head {
+  grid-column: 1 / -1;
+  justify-items: center;
+  text-align: center;
+  max-width: var(--measure-wide);
+  margin-inline: auto;
+}
+
+.kernel-band > .section-head h2 {
+  max-width: 16ch;
+  margin-inline: auto;
+}
+
+.kernel-layout {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(360px, 0.62fr) minmax(0, 1fr) !important;
+  gap: var(--s-2);
+  align-items: center;
+  width: 100%;
+}
+
+.kernel-copy {
+  align-self: center;
+  justify-self: stretch;
+  padding: var(--s-2);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.38);
+  border: 1px solid var(--line);
+  text-align: center;
+  justify-items: center;
+}
+
+.kernel-copy p {
+  max-width: 62ch;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.kernel-visual {
+  align-self: center !important;
+  justify-self: stretch;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  padding: 0;
+  border-radius: var(--radius-md);
+  background: #101217;
+  overflow: hidden;
+}
+
+.kernel-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 1100px) {
+  .kernel-layout {
+    grid-template-columns: 1fr !important;
+  }
+}
