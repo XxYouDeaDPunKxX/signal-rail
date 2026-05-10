@@ -5,26 +5,67 @@ Type: Plain-text document governance system
 URL: https://xxyoudeadpunkxx.github.io/Signal-Rail/
 Repository: https://github.com/XxYouDeaDPunKxX/Signal-Rail
 Runtime: AI-assisted project work with plain-text files
+License: CC BY-SA 4.0
+License URL: https://creativecommons.org/licenses/by-sa/4.0/
+Canonical entry files: 00_runtime_entry.txt, 06_ai_to_ai.txt
+
+## What this is
+
+Signal Rail is a text-first governance system for AI-assisted project work.
+
+It keeps current state, decisions, unresolved material, hard constraints, surface maps, handoff, parking, and archive separated so project context does not collapse into one overloaded document.
+
+It is not a generic notes folder or knowledge-base aesthetic. It is a routing system for project material and AI agent entry.
+
+## Operating line
+
+Think. Throw. Unearth. Route material before it contaminates the wrong surface.
+
+## Use case
+
+Use Signal Rail when project documents become a pile, when AI-assisted work loses context boundaries, or when decisions, live state, latent ideas, constraints, and handoff material need separate authority layers.
+
+## Canonical source
+
+The live repository is the canonical public source.
+
+Primary entry files:
+
+- 00_runtime_entry.txt
+- 06_ai_to_ai.txt
+
+Treat this file as the LLM-readable project index, not as the full Signal Rail specification.
 
 ## Purpose
+
 Signal Rail keeps personal and project material readable while work grows, branches, changes shape, and resumes after interruption.
+
 It separates current state, decisions, unresolved material, hard constraints, surface maps, handoff, parking, and archive.
 
 ## Operating question
+
 What kind of material is this, and where should it live?
 
 ## Operating model
+
 Signal Rail is mainly designed to be operated with an AI agent during real work.
+
 The agent reads the entry layer, activates the lateral kernel, closes the working frame, and helps route material into the right document without mixing levels.
+
 The human stays in charge of meaning, authority, and approval.
 
 ## Quick start
+
 Create a Signal Rail instance in the target project area.
+
 Use init_signal_rail.bat for Windows bootstrap, or manually copy the required files while preserving file names, marker structure, canonical roles, and entry flow.
+
 After the instance exists, ask the AI agent to read 00_runtime_entry.txt, then 06_ai_to_ai.txt.
+
 The agent should close host project, working object, active mode, source scope, and authority before substantive work.
 
 ## Rails
+
 - 00_runtime_entry.txt: valid entry, minimum read, and reading boundaries.
 - 01_orientation.txt: project identity, perimeter, and reading frame.
 - 02_protocol_freeze.txt: identity constants that should be hard to reopen.
@@ -40,16 +81,20 @@ The agent should close host project, working object, active mode, source scope, 
 - 99_archive.txt: closed, historical, duplicate, or no-longer-live material.
 
 ## Boundary model
+
 - Clean baseline kit: this repository, the reusable Signal Rail source.
 - Deployed instance: a copy of Signal Rail used inside or beside a real project.
 - Host project: the actual project being governed.
 - Workstation: optional local interface for reading, staging, previewing, and writing a live instance.
 
 ## Workstation
+
 signal_rail_workstation_final.html gives the operator a local workstation for reading canonicals, checking runtime state, staging writes, previewing output, and writing back to matching .txt files when live folder access is available.
+
 The workstation does not replace the canonicals and does not change authority.
 
 ## What it prevents
+
 - live state mixed with decisions
 - unresolved material promoted too early
 - technical reality buried inside generic notes
@@ -61,5 +106,24 @@ The workstation does not replace the canonicals and does not change authority.
 - a handoff note becoming canonical truth
 - a deployed instance being mistaken for the host project
 
+## Discovery Set
+
+Machine-readable project files:
+
+- llms.txt: LLM-readable project index.
+- raw-manifest.json: structured machine-readable project manifest.
+- robots.txt: crawler access declaration.
+- sitemap.xml: sitemap for the GitHub Pages surface.
+
+HTML discovery signals:
+
+- canonical URL
+- rel=alternate for llms.txt
+- rel=alternate for raw-manifest.json
+- JSON-LD SoftwareSourceCode metadata
+- Open Graph metadata
+- footer machine-readable links
+
 ## Keywords
-plain text governance, AI-assisted project work, document routing, project continuity, source authority, canonical files, Signal Rail
+
+plain text governance, AI-assisted project work, document routing, project continuity, source authority, canonical files, Signal Rail, context routing, project governance, AI agent entry, text-first governance
