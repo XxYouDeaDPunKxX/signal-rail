@@ -594,9 +594,35 @@ li {
   margin-bottom: 0;
 }
 
+.footer-stack {
+  display: grid;
+  gap: 0.85rem;
+  justify-items: end;
+}
+
 .exit-links a {
   text-decoration: none;
   font-family: "IBM Plex Mono", "Courier New", monospace;
+}
+
+.machine-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.45rem 0.7rem;
+  color: var(--ink-soft);
+  font-family: "IBM Plex Mono", "Courier New", monospace;
+  font-size: 0.78rem;
+}
+
+.machine-links a {
+  text-decoration: none;
+}
+
+.machine-links a:hover,
+.machine-links a:focus-visible {
+  color: var(--rail-deep);
+  text-decoration: underline;
 }
 
 .workstation-links {
@@ -661,6 +687,12 @@ li {
   .final-exit {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .footer-stack,
+  .machine-links {
+    justify-items: start;
+    justify-content: flex-start;
   }
 
   .hero-actions,
