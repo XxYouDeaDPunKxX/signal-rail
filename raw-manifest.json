@@ -2,10 +2,19 @@
   "name": "Signal Rail",
   "type": "Plain-text document governance system",
   "description": "A text-first governance system for AI-assisted project work.",
+  "url": "https://xxyoudeadpunkxx.github.io/Signal-Rail/",
   "page_url": "https://xxyoudeadpunkxx.github.io/Signal-Rail/",
   "repository": "https://github.com/XxYouDeaDPunKxX/Signal-Rail",
   "runtime": "AI-assisted project work with plain-text files",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "canonical_entry_files": [
+    "00_runtime_entry.txt",
+    "06_ai_to_ai.txt"
+  ],
+  "identity": "Think. Throw. Unearth. Route material before it contaminates the wrong surface.",
   "purpose": "Keep personal and project material readable while work grows, branches, changes shape, and resumes after interruption.",
+  "use_case": "Use Signal Rail when project documents become a pile, when AI-assisted work loses context boundaries, or when decisions, live state, latent ideas, constraints, and handoff material need separate authority layers.",
   "operating_question": "What kind of material is this, and where should it live?",
   "operating_model": [
     "Signal Rail is mainly designed to be operated with an AI agent during real work.",
@@ -56,6 +65,26 @@
     "a handoff note becoming canonical truth",
     "a deployed instance being mistaken for the host project"
   ],
+  "discovery_set": {
+    "llms": "llms.txt",
+    "manifest": "raw-manifest.json",
+    "robots": "robots.txt",
+    "sitemap": "sitemap.xml",
+    "html_signals": [
+      "canonical URL",
+      "rel=alternate for llms.txt",
+      "rel=alternate for raw-manifest.json",
+      "JSON-LD SoftwareSourceCode metadata",
+      "Open Graph metadata",
+      "footer machine-readable links"
+    ]
+  },
+  "machine_readable_files": [
+    "llms.txt",
+    "raw-manifest.json",
+    "robots.txt",
+    "sitemap.xml"
+  ],
   "keywords": [
     "plain text governance",
     "AI-assisted project work",
@@ -63,6 +92,10 @@
     "project continuity",
     "source authority",
     "canonical files",
-    "Signal Rail"
+    "Signal Rail",
+    "context routing",
+    "project governance",
+    "AI agent entry",
+    "text-first governance"
   ]
 }
