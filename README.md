@@ -433,12 +433,13 @@ If local tooling changes or disappears, the canonicals and the kernel should sti
 
 ---
 
-<strong>🤝 Human + AI note</strong>
+## 🤖 AI-assisted development
 
-Signal Rail is a human-led project by **XxYouDeaDPunKxX**.
+This project was developed with AI assistance.
 
-Its concept, structure, behavioral logic, and final direction come from me.  
-AI was used as a working partner during development to help with drafting, rewriting, refinement, iteration speed, and support material.
+The project, documentation, and repository materials were shaped through human-directed work supported by AI tools during drafting, structuring, review, and refinement.
+
+AI assistance does not make the project automatically correct, complete, or suitable for every use case. Read it, test it, and adapt it to your own context.
 
 ---
 
